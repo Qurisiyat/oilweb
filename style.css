@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    line-height: 1;
+}
+
+.navbar{
+    width: 100%;
+    margin: 0%;
+    background-color: yellowgreen;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.topnav{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 5px;
+}
+
+.topright{
+    margin-left: 55%;
+}
+
+li > a{
+    text-decoration: none;
+    color: rgb(63, 61, 61);
+    padding: 10px;
+}
+
+a:hover{
+    color: white;
+    background-color: blue;
+}
+
+/* section-1 */
+
+.section-1{
+    background: linear-gradient(to bottom, green, rgb(124, 245, 124));
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding-bottom: 16px;
+}
+
+.col-1{
+    width: 50%;
+    color: white;
+}
+
+.col-1 > h1{
+    font-size: 70px;
+    margin-left: 10%;
+}
+
+form{
+    margin-left: 10%;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+}
+
+/* section-2 */
+
+.enterprices{
+    text-align: center;
+    font-size: 60px;
+    background-color: yellowgreen;
+}
+
+.section-2{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(226, 255, 169);
+}
+
+.chat, .cook, .Learn, .build{
+    width: 25%;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.more{
+    margin: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    background-color: blue;
+    outline-style: none;
+    margin-left: 50;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* section contact */
+
+.me{
+    text-align: center;
+    font-size: 60px;
+}
+.contactform{
+    background: linear-gradient(to bottom, green, rgb(124, 245, 124));
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    padding: 40px;
+}
+
+.submit{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.ms{
+    margin-left: 70%;
+    width: 50%;
+    
+}
+
+/* section signin */
+
+.sign{
+    background: linear-gradient(to bottom, green, rgb(124, 245, 124));
+    margin: 0;
+    width: 100%;
+}
+
+.signin{
+    padding: 17px;
+}
+
+/* section signout */
+
+.out{
+    background: linear-gradient(to bottom, green, rgb(124, 245, 124));
+    margin: 0;
+    width: 100%;
+}
+
+.signout{
+    padding: 17px;
+}
+
+input{
+    width: 500px;
+    height: 30px;
+}
+
+/* section services */
+
+body{
+    background: cyan;
+}
+
+.oil{
+    background: linear-gradient(to bottom, green, rgb(124, 245, 124)); 
+}
+
+.making{
+    text-align: center;
+    text-transform: uppercase;
+}
